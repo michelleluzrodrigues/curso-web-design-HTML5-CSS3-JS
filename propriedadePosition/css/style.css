@@ -1,0 +1,22 @@
+#um{
+  background: red;
+  padding: 10px;
+  width: 100%;
+  height: 80px;
+}
+#dois{
+  background: orange;
+  padding: 10px;
+  width: 80%;
+  height: 50px;
+  position: relative;/*Está se relacionando com a div 3*/
+}
+#tres{
+  background: yellow;
+  width: 25px;
+  height: 25px;
+  position: absolute; /*propriedade deve ser trabalhada com conjunto de outras propriedades*/
+  bottom: 0;
+  right: 10px;
+
+}

@@ -1,0 +1,14 @@
+li ul{
+  /*display: none;*/
+  height: 0;
+  overflow: hidden; /*Esconde o conteudo que excede a altura definido em height*/
+  transition: 0.5; 
+}
+li:hover{
+  background-color:  #ccc;
+}
+li:hover ul{
+  /*display:block;*/
+  height: 50px; /*Altura*/
+
+}
